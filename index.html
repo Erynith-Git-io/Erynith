@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erynith Movies</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: #000;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+        }
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .content {
+            position: relative;
+            z-index: 2;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.8);
+        }
+        h2 {
+            font-size: 2rem;
+            text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6);
+        }
+        p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            text-decoration: none;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.4);
+        }
+        .support-container {
+            background: #f4a261;
+            padding: 50px;
+            text-align: center;
+            border-top: 5px solid #fff;
+        }
+        .support-container img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        /* Blog container styles */
+        .blog-container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 15px;
+            margin: 50px auto;
+            width: 90%;
+            max-width: 800px;
+            text-align: left;
+        }
+        .blog-container h2,
+        .blog-container h3,
+        .blog-container h4,
+        .blog-container h5,
+        .blog-container h6 {
+            color: cyan;
+            margin-bottom: 15px;
+        }
+        .blog-container p {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            line-height: 1.6;
+            color: #ddd;
+        }
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="background-image: url('https://hips.hearstapps.com/hmg-prod/images/horse-movies-1553108662.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*');">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Erynith is Back!!</h1>
+            <h2>Watch Your Favorites</h2>
+            <p>Watch your favorite movies or TV shows online for free. Enjoy a seamless streaming experience today on Erynith!</p>
+            <a href="https://erynith-git-io.github.io/Erynith-Movies/" class="btn">START WATCHING NOW</a>
+        </div>
+    </div>
+
+    <div class="support-container">
+        <img src="https://i.pinimg.com/originals/d9/2a/1c/d92a1cf8aef657f514349872e882dae6.gif" alt="Support Us">
+        <h2>PLEASE SUPPORT ME! I PAID THE WEB-DESIGNER TO DESIGN THIS SITE</h2>
+        <p>YOU CAN SUPPORT US BY PLAYING GAMES ON OUR WEBSITE</p>
+        <a href="https://topstoryindia.com/" class="btn">Support us by Playing Games on Our Site</a>
+    </div>
+
+    <div class="blog-container">
+        <h2>What Is Erynith?</h2>
+        <p>Imagine a giant library, but instead of dusty books, it's filled with all the movies and TV shows you can dream of watching. Erynith offers an expansive collection that caters to all tastes and preferences, making it a haven for entertainment enthusiasts.</p>
+        
+        <h3>Why Choose Erynith?</h3>
+        <p><strong>1. Free Entertainment for Everyone!</strong><br>No hidden fees, no subscriptions—just pure, unadulterated fun.</p>
+        <p><strong>2. Easy to Use</strong><br>We designed our site with simplicity in mind. Even if you're not tech-savvy, you can easily navigate and find your favorite content.</p>
+        <p><strong>3. Public & Open</strong><br>Our platform is built on the principle of sharing. We believe in providing open access to quality entertainment for all.</p>
+        
+        <h3>How to Get Started?</h3>
+        <p>Simply click the "START WATCHING NOW" button above to dive into a world of movies and TV shows. It's quick, easy, and completely free!</p>
+        
+        <h3>Join the Community</h3>
+        <p>At Erynith, you're not just a viewer—you are part of a growing community of film lovers. Share your thoughts, join discussions, and be part of our journey as we continue to bring you the best in entertainment.</p>
+    </div>
+</body>
+</html>
