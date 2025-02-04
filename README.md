@@ -1,4 +1,6 @@
 # Erynith
+Hi!! Ernith Is Finally Back :)  ❤️
+
 Public instances for your favourite place for your favourite movies &amp; shows.
 
 # 🎬 Welcome to Erynith – Your Favorite Place for Free Movies & TV Shows! 🍿
