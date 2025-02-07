@@ -1,5 +1,5 @@
 # Erynith
-Hi!! Ernith Is Finally Back :)  ❤️
+Hi!! Erynith Is Finally Back :)  ❤️
 
 Public instances for your favourite place for your favourite movies &amp; shows.
 
